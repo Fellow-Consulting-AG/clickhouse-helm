@@ -1,4 +1,4 @@
-FROM yandex/clickhouse-server:18.14
+FROM clickhouse/clickhouse-server:latest
 
 COPY config.xml /etc/clickhouse-server/config.d/local.xml
 COPY macros.xml /etc/clickhouse-server/config.d/macros.xml
